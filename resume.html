@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CV</title>
+    <style>
+        #container {
+            width: 100%;
+            font-size: 18px;
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            flex-flow: row wrap;
+            background-color: #e8f2fc;
+            box-shadow: 0 3px 6px rgb(76, 103, 163),
+                0 3px 6px rgb(37, 50, 80);
+        }
+
+        header {
+            justify-content: center;
+            flex-basis: 100%;
+            text-align: center;
+            background-image: linear-gradient(-3deg, #eff0f1, #0058b05e);
+        }
+
+        #fullname {
+            margin-bottom: 0;
+        }
+
+        img {
+            width: 200px;
+            margin: 10px 40px 10px 50px;
+            float: left;
+            border-radius: 2%;
+        }
+
+        img:hover {
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+                0 3px 6px rgba(0, 0, 0, 0.23);
+        }
+
+        @media screen and (max-width: 414px) {
+            img {
+                width: 100px;
+                margin: 10px 20px 10px 20px;
+            }
+
+            #container {
+                font-size: 12px;
+            }
+        }
+
+        #personal_info {
+            flex-basis: 100%;
+            background-image: linear-gradient(-3deg, #b5daff5e, #eff0f1);
+            font-style: italic;
+        }
+
+        #subtitle {
+            color: rgba(0, 0, 0, 0.781);
+            margin-top: 0;
+        }
+
+        section {
+            display: flex;
+            flex-flow: row wrap;
+            margin: 20px;
+        }
+
+        #bottom_line {
+            border-bottom: 1px solid rgb(155, 152, 152);
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        footer {
+            display: flex;
+            width: 100%;
+            padding: 20px 0 20px 0;
+            justify-content: center;
+            background-image: linear-gradient(-3deg, #0058b05e, #eff0f1);
+        }
+
+        a[href="mailto:becic_merima@yahoo.com"],
+        a[href="https://www.facebook.com/merima.becic.9"] {
+            margin-right: 40px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+
+        <header>
+            <h1 id="fullname">Merima Bećić</h1>
+            <h5 id="subtitle">FRONTEND DEVELOPER</h5>
+        </header>
+
+
+        <div id="personal_info">
+            <img src="cv_photo_.jpg" alt="photo">
+            <p><b>Date of Birth:</b> 07/07/1988</p>
+            <p><b>Address:</b> Krečanska 17, Tuzla</p>
+            <p><b>Country:</b> BiH</p>
+            <p><b>Telephone Number:</b> +387 61 656818</p>
+            <p><b>Email:</b> becic_merima@yahoo.com</p>
+        </div>
+
+        <section>
+
+            <div id="bottom_line">
+                <h2>Education</h2>
+                <p><b>Name of institution:</b> ITAcademy 2020 – 2021</p>
+                <p><b>Department:</b> Frontend JavaScript Development</p>
+                <p><b>Professional Title:</b> Certified JavaScript Developer</p>
+            </div>
+
+            <div id="bottom_line">
+                <h2>Computer Skills</h2>
+                <p>HTML/CSS, JavaScript, Bootstrap, React.js, Node.js, Adobe Photoshop, Adobe Illustrator, MySQL.</p>
+            </div>
+
+            <div id="bottom_line">
+                <h2>Misc.</h2>
+                <p><b>Driver's License:</b> B</p>
+                <p><b>Characteristics:</b></p>
+                <ul>
+                    <li>A fast learner and successful working in a team environment, as well as independently.</li>
+                    <li>The ability to work under pressure and multi-task.</li>
+                    <li>The ability to follow instructions and deliver quality results.</li>
+                    <li>Strong sense of self motivation, detailed oriented and well organized.</li>
+                    <li>The ability to adapt.</li>
+                </ul>
+            </div>
+
+            <div id="bottom_line">
+                <h2>Additional Notes</h2>
+                <p>Successful completion of IT Academy by LINKgroup in Oct 2021. As part of the curriculum, I worked
+                    with
+                    HTML and CSS technologies, Java Script programming language, as well as the three most popular
+                    JavaScript frameworks for creating the client part of web applications - Vue.js, Angular and React.
+                    Part
+                    of the program was dedicated to Adobe Photoshop and Adobe Illustrator software for creating visual
+                    elements, techniques for manipulating the DOM and JQuery and JQuery UI libraries for interface
+                    design,
+                    and a special section was dedicated to creating web games using JavaScript.</p>
+            </div>
+
+            <div id="bottom_line">
+                <h2>Personal interests</h2>
+                <ul>
+                    <li>Sports</li>
+                    <li>Nature walks</li>
+                    <li>Reading books</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <footer>
+
+            <a href="mailto:becic_merima@yahoo.com" target="_blank" class="fa fa-envelope-open"></a>
+            <a href="https://www.facebook.com/merima.becic.9" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/meri_bcc/" target="_blank" class=" fa fa-instagram"></a>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
